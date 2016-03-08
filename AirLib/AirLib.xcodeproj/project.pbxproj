@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99ACA5C71C8047CE00AD5D17 /* AirLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 99ACA5C61C8047CE00AD5D17 /* AirLib.h */; };
+		99ACA5C91C8047CE00AD5D17 /* AirLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ACA5C81C8047CE00AD5D17 /* AirLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99ACA5C11C8047CE00AD5D17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				99ACA5C71C8047CE00AD5D17 /* AirLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		99ACA5C31C8047CE00AD5D17 /* libAirLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ACA5C61C8047CE00AD5D17 /* AirLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirLib.h; sourceTree = "<group>"; };
+		99ACA5C81C8047CE00AD5D17 /* AirLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99ACA5C01C8047CE00AD5D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99ACA5BA1C8047CE00AD5D17 = {
+			isa = PBXGroup;
+			children = (
+				99ACA5C51C8047CE00AD5D17 /* AirLib */,
+				99ACA5C41C8047CE00AD5D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99ACA5C41C8047CE00AD5D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99ACA5C31C8047CE00AD5D17 /* libAirLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99ACA5C51C8047CE00AD5D17 /* AirLib */ = {
+			isa = PBXGroup;
+			children = (
+				99ACA5C61C8047CE00AD5D17 /* AirLib.h */,
+				99ACA5C81C8047CE00AD5D17 /* AirLib.m */,
+			);
+			path = AirLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99ACA5C21C8047CE00AD5D17 /* AirLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ACA5CC1C8047CE00AD5D17 /* Build configuration list for PBXNativeTarget "AirLib" */;
+			buildPhases = (
+				99ACA5BF1C8047CE00AD5D17 /* Sources */,
+				99ACA5C01C8047CE00AD5D17 /* Frameworks */,
+				99ACA5C11C8047CE00AD5D17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirLib;
+			productName = AirLib;
+			productReference = 99ACA5C31C8047CE00AD5D17 /* libAirLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99ACA5BB1C8047CE00AD5D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kunal Pandey";
+				TargetAttributes = {
+					99ACA5C21C8047CE00AD5D17 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 99ACA5BE1C8047CE00AD5D17 /* Build configuration list for PBXProject "AirLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99ACA5BA1C8047CE00AD5D17;
+			productRefGroup = 99ACA5C41C8047CE00AD5D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99ACA5C21C8047CE00AD5D17 /* AirLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99ACA5BF1C8047CE00AD5D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ACA5C91C8047CE00AD5D17 /* AirLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99ACA5CA1C8047CE00AD5D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99ACA5CB1C8047CE00AD5D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99ACA5CD1C8047CE00AD5D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99ACA5CE1C8047CE00AD5D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99ACA5BE1C8047CE00AD5D17 /* Build configuration list for PBXProject "AirLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ACA5CA1C8047CE00AD5D17 /* Debug */,
+				99ACA5CB1C8047CE00AD5D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99ACA5CC1C8047CE00AD5D17 /* Build configuration list for PBXNativeTarget "AirLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ACA5CD1C8047CE00AD5D17 /* Debug */,
+				99ACA5CE1C8047CE00AD5D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99ACA5BB1C8047CE00AD5D17 /* Project object */;
+}

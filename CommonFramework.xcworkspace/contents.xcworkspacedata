@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:CommonLib/CommonLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AirLib/AirLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HotelLib/HotelLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CarLib/CarLib.xcodeproj">
+   </FileRef>
+</Workspace>
